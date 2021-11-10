@@ -7,7 +7,6 @@ Compt = 0
 Test = 1
 for x in range(1,10000):
     i = x
-    print(x)
     while i !=1:
         if i%2 == 0:
             i = i/2
