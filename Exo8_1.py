@@ -36,7 +36,6 @@ def extract_temp(date, code):
         for i in myzip.namelist():
             if DossierDate == i: break
         else: return []
-
         with myzip.open(DossierDate,'r') as f:
             r = f.read().decode()
             liste = r.split('\n')
